@@ -1,0 +1,211 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+
+}
+
+.header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 4px solid #1a8cff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+
+.navbar a {
+    background-color: #1a8cff;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #005bb5;
+}
+
+.footer {
+    border-top: 2px solid #ccc;
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 145px;
+    padding: 10px;
+    background-color: #1a8cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container button:hover {
+    background-color: #005bb5;
+}
+
+.form-container a {
+    display: block;
+    margin-top: 10px;
+    color: #1a8cff;
+    text-decoration: none;
+}
+
+
+.table-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.table-container h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #1a8cff;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+.container {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 6px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    color: green;
+}
+
+/* Specific for delete.php */
+.message.success {
+    color: green;
+}
+
+.message.warning {
+    color: orange;
+}
+
+.form-section {
+    margin-top: 20px;
+}
+
+.record-details {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #eef;
+    border-left: 4px solid #88c;
+    border-radius: 4px;
+}
+
+.confirmation-form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin: 6px 0;
+}
+
