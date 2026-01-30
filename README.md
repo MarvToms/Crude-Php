@@ -20,7 +20,7 @@ A simple **CRUD (Create, Read, Update, Delete)** web application built with **co
 * **PHP (Core PHP)**
 * **MySQL**
 * **HTML5 / CSS3**
-* **Apache (XAMPP / WAMP / LAMP)**
+* **Apache (XAMPP)**
 
 ---
 
